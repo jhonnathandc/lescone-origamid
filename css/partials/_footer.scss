@@ -1,0 +1,21 @@
+.footer {
+  padding: 20px 0px;
+  background: $cinza;
+  @include box-shadow(0 0 0 10px $cinza);
+  div {
+    display: flex;
+    @include device(s) {
+      display: block;
+    }
+  }
+  p {
+    flex: 1;
+    color: $bege-claro;
+    @include device(s) {
+      text-align: center;
+    }
+  }
+  a img {
+    margin: 20px auto;
+  }
+}
