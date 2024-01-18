@@ -56,4 +56,9 @@
 .intro-photo {
   border: 10px solid $bege-medio;
   width: 100%;
+  object-fit: cover;
+
+  @include device(s) {
+    height: 500px;
+  }
 }
